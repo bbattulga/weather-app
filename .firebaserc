@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "weather-2f6e3"
+  },
+  "targets": {
+    "weather-2f6e3": {
+      "hosting": {
+        "weather-frontend": [
+          "weather-2f6e3"
+        ]
+      }
+    }
   }
 }
